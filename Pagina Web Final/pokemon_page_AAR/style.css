@@ -1,11 +1,26 @@
- @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Titillium Web', sans-serif;
+}
 
- .container-fluid {
-   background-color: #75C9C8;
- }
+.container-fluid {
+  background-color: #75C9C8;
+}
 
- .social-media {
-  background-color: #2193B0;
+#carouselExample {
+  background-color: #DED9E2;
+}
+
+.content {
+  padding: 10px 15px;
+  margin: auto;
+  background-color: #75C9C8;
+}
+
+
+.social-media {
+  background-color: #80A1D4;
   color: #FFF;
   text-align: center;
   font-size: 16px;
@@ -21,14 +36,13 @@
   padding: 40px 133px;
 }
 
-.social-media ul a img{
-  width: 40px;
+.social-media ul a img {
+  width: 70px;
 }
 
-.social-link{
+.social-link {
   width: 40px;
   height: 40px;
-  background-color: #fff;
   padding: 10px;
-  border-radius: 50px;
+  border-radius: 50px;
 }
